@@ -1,0 +1,16 @@
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+ {
+	"name":"Gemma",
+	 "subscribedToChannel":"SquirrelVideos"
+ }
+
+###
+PATCH http://localhost:3000/subscribers/62589d173f62d9bcac8fd3c7
+Content-Type: application/json
+
+{
+	 "subscribedToChannel":"SquirrelVideos"
+ }
